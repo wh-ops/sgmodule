@@ -1,5 +1,6 @@
-#!name=LXK9301 iOS Tasks Module
+#!name=JD LXK9301
 #!desc=iOS Tasks 模块配置
+#!system=ios
 
 [Script]
 #东东农场
