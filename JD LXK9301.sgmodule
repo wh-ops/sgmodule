@@ -15,10 +15,6 @@ cron "15 1,7,9,12,18,21 * * *" script-path=https://raw.githubusercontent.com/LXK
 cron "12 */1 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_joy_feedPets.js,timeout=30, wake-system=1, tag=宠汪汪喂食
 #宠汪汪积分兑换奖品
 cron "0 0,8,12,16 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_joy_reward.js,timeout=130, wake-system=1, tag=宠汪汪积分兑换奖品
-#京东天天加速
-cron "8 */3 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_speed.js,timeout=130, wake-system=1, tag=京东天天加速
-#京东摇钱树
-cron "15 */5 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_moneyTree.js,timeout=130, wake-system=1, tag=京东摇钱树
 #摇京豆
 cron "5 0 * * *" script-path=https://raw.githubusercontent.com/LXK9301/jd_scripts/master/jd_club_lottery.js, timeout=1150, wake-system=1, tag=摇京豆
 #京小超
