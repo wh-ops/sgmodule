@@ -1,15 +1,14 @@
 #!name=JD  Module
-#!desc=Tasks 模块配置 京东部分
+#!desc=Tasks 模块配置 自用
 #!system=ios
 
 [Script]
 排行榜 = type=cron,cronexp=0 13 9 * * *,wake-system=1,timeout=600,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js
-京喜 = type=cron,cronexp=7 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/jingxi.js,timeout=300
-京东白条 = type=cron,cronexp=0 19 * * *,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_baiTiao.js,timeout=300
 京喜工厂 = type=cron,cronexp=10 * * * *,wake-system=1,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_factory.js,timeout=300
 京东赚赚 = type=cron,cronexp=0 9 * * *,timeout=60,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jdzz.js
 京东抽奖机 = type=cron,cronexp=11 1 * * *,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js,timeout=300
 东东工厂 = type=cron,cronexp=0 */1 * * *,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/dd_factory.js,timeout=300
 京东小窝 = type=cron,cronexp=0 9 * * *,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/ddxw.js,timeout=300
 京东多合一签到 = type=cron,cronexp=5 0 * * *,wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
-
+爱奇艺 = type=cron,cronexp=9 0 0 * * *,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js,script-update-interval=0
+滴滴出行 = type=cron,cronexp="0 1,20 * * *",wake-system=1,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js
